@@ -1,0 +1,4 @@
+org/xulinux/ModuleExample/Hello3.class
+org/xulinux/ModuleExample/pack1/Hello1.class
+module-info.class
+org/xulinux/ModuleExample/pack2/Hello2.class
