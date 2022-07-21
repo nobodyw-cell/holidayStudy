@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TestModule" />
+        <module name="Internal" />
+        <module name="APIModule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API Module" target="11" />
+      <module name="APIModule" target="11" />
+      <module name="Internal" target="11" />
+      <module name="SplitSDk" target="11" />
+      <module name="TestModule" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
